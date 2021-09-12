@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css" <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap" rel="stylesheet">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!--Add navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize" href="#life">Info</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--create a carousel-->
+    <header>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/nature1.jpg" class="d-block w-100" alt="images/nature1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/nature2.jpg" class="d-block w-100" alt="images/nature2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/nature3.jpg" class="d-block w-100" alt="images/nature3.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/nature4.jpg" class="d-block w-100" alt="images/nature4.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/nature5.jpg" class="d-block w-100" alt="images/nature5.jpg">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+    <!--Add about me section here-->
+    <section>
+        <div class="text-center" id="about1">
+            <h1>About me</h1>
+            <hr class="w-25 mx-auto" />
+            <!--mx-auto places the horizontal line at the center-->
+        </div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col col-lg-6 col-md-6 col-xxl-6">
+                    <figure>
+                        <img src="images/nature5.jpg" alt="my journey" class="about_img">
+                    </figure>
+                </div>
+
+
+                <div
+                    class="col col-lg-6 col-md-6 col-xxl-6 d-flex flex-column justify-content-center align-items-start">
+                    <h1>My journey</h1>
+                    <p>
+                        hufdshfilshfishdifhseihfildhfilshfilsedkhfsdilhiofgshiofrhshsdlhjkldnvc
+                        fadhkfgkdgfkjdgfjkdsfkdgfksdgfsdgfsdgfsdjkfsdjkfhsdjlhfjsdhfldshlfhsdlhf
+                        fgkdsgfdksfjksdhjkfsdhjlfhsdjlhvsdlhvlsdhflsdhlfhsdlhfsdlhflsdhlfdshlfhsdlhfsld
+                        fdhsjkfjksdhfjksdhjfsdhjghsdjlfhgslhslhdlfhsdl.hfdskgfsdkgfks fdskjgfsdk
+                    </p>
+
+                    <!--add a button-->
+                    <button type="button" class="btn btn-outline-info">Info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!--Technology trainings-->
+        <div class="card" style="width: 300px;">
+            <img src="images/htmllogo.png" class="card-img-top" alt="images/htmllogo.png">
+            <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">The HyperText Markup Language, or HTML is the standard markup language for
+                    documents designed to be displayed in a web browser. It can be assisted by technologies such as
+                    Cascading Style Sheets and scripting languages such as JavaScript.</p>
+                <a href="https://www.w3schools.com/html/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </section>
+    <div class="text-center my-5">
+        <h1 class="text-capitalize">Gallery</h1>
+        <hr class="w-25 mx-auto"
+    </div>
+
+    <section>
+        <div class="container" id="gallery">
+            <div class="row my-5 gx-2 gy-2">
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/nature1.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/img2.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/img3.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/img4.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/img5.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/img6.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/img7.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/img8.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+                <div class="col col-md-4 col-xxl-4 mx-auto shadow-sm p-3 mb-5 bg-body rounded">
+                    <figure>
+                        <img src="images/img9.jpg" alt="gallery" class="img-fluid mying"
+                    </figure>
+                </div>
+    </section>
+    <section>
+        <div class="container bg-primary text-center py-5 my-5">
+            <h2>This is Arunima</h2>
+            <a role="button" class="btn btn-info" href="https://www.youtube.com/channel/UCYEoagTKMMm88FDE74gvChw" target="_blank">Check the videos
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                  </svg>
+                </a>
+        </div>
+    </section>
+
+    <!--Survey-->
+    <section>
+        <div class="text-center my-5" id="life">
+            <h1 class="text-capitalize">Info</h1>
+            <hr class="w-25 mx-auto"
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Early Life
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Born and brought up in Ranchi</strong> I have lived in different cities as my father was posted in Bihar, so I have changed around six schools till class four.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Boarding schools
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Lived in a boarding school.</strong> I have spent around 5 years in a convent boarding school. Then after tenth boards, I changed to CBSE for class 12. I then cracked JEE Advanced in 2015 and did chemical engineering.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Recent years
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Switched to IT Industry</strong> Being a chemical engineer, I switched to IT and have worked in two of the major MNCs in India.
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--Work Experience-->
+    <section>
+        <div class="text-center my-5">
+            <h1 class="text-capitalize">Education</h1>
+            <hr class="w-25 mx-auto"/>
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Qualifications</th>
+                <th scope="col">Institute</th>
+                <th scope="col">Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>B.Tech</td>
+                <td>Rajiv Gandhi Institute of Petroleum --Technology</td>
+                <td>2015-19</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>12<sup>th</sup>Board CBSE</td>
+                <td>Jawahar Vidya mandir,Shyamali</td>
+                <td>2014</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>10<sup>th</sup>board ICSE</td>
+                <td>Bishop Westcott Girls' School,Namkom</td>
+                <td>2012</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="text-center my-5">
+            <h1 class="text-capitalize">Work Experience</h1>
+            <hr class="w-25 mx-auto"/>
+        </div>
+          <table class="table table-striped table-hover table-responsive">
+            <tbody>
+                <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Company</th>
+                      <th scope="col">Designation</th>
+                      <th scope="col">Duration</th>
+                    </tr>
+                  </thead>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Tata Consultancy Services</td>
+                  <td>Assistant System Engineer Trainee</td>
+                  <td>April,2021 - Present</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Accenture Solutions Private Limited</td>
+                  <td>associate Software Engineer</td>
+                  <td>March,2020 - October,2020</td>
+                </tr>
+              </tbody>
+          </table>
+
+          <div class="text-center my-5">
+            <h1 class="text-capitalize">Voluteering Activities</h1>
+            <hr class="w-25 mx-auto"/>
+        </div>
+
+          <table class="table table-bordered border-primary">
+            <tbody>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Company</th>
+                  <th scope="col">Designation</th>
+                  <th scope="col">Duration</th>
+                </tr>
+              </thead>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>AIChe RGIPT Student Chapter</td>
+                  <td>Secretary</td>
+                  <td>2016-17</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>RGIPT Publicity Commitee</td>
+                  <td>Volunteer and Co-Head</td>
+                  <td>2015-17</td>
+                </tr>
+                <tr>
+                  <th scope="row" >3</th>
+                  <td>RGIPT Girls' Hostel President</td>
+                  <td></td>
+                  <td>2017-18</td>
+                </tr>
+              </tbody>
+          </table>
+           
+          <div class="text-center my-5">
+            <h1 class="text-capitalize">Internships</h1>
+            <hr class="w-25 mx-auto"/>
+        </div>
+        <div class="table-responsive">
+            <table class="table align-middle">
+              <thead>
+                <tr>Industry Experience during B.Tech.</tr>
+              </thead>
+              <hr>
+              <tbody>
+                <tr>
+                  <td>Summer Internship</td>
+                  <td>Indian Institute of Petroleum,Dehradun</td>
+                  <td class="align-top">Preparation of Petroleum Jelly from waxy refinery streams</td>
+                  <td>May,2018-July-2018</td>
+                </tr>
+                <tr>
+                  <td>Summer Internship</td>
+                  <td>Mongol Refineries</td>
+                  <td class="align-top">Preparation of lubes from waste motor oil</td>
+                  <td>May,2017-July-2017</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br>
+          
+        <form class="container">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+           </section>
+           <br>
+           <br>
+          </hr>
+
+          <select class="form-select" aria-label="Default select example" class="container">
+            <option selected>How to contact Arunima</option>
+            <option value="1">E-mail</option>
+            <option value="2">Phone</option>
+            <option value="3">Video call</option>
+          </select>
+           <br>
+           <br>
+           <br>
+           <br>
+           <section>
+           <div class="text-center my-5" id="contactdet">
+            <h1 class="text-capitalize">Contact</h1>
+            <hr class="w-25 mx-auto"
+          </div>
+            <div class="btn-group" role="group" aria-label="Basic example" id="social">
+              <button type="button" class="btn btn-success"><a href="https://www.facebook.com/arunima.gupta.14" target="_blank">Facebook</a></button>
+              <button type="button" class="btn btn-success"><a href="https://www.linkedin.com/in/arunima-gupta-b033271b4/" target="_blank">LinkedIn</a></button>
+              <button type="button" class="btn btn-success"><a href="https://www.instagram.com/arunima_gupta27/" target="_blank">Instagram</a></button>
+            </div>
+          </section>
+        
+          <br>
+          <br>
+          <br>
+          <br>
+            
+
+
+          <div class="form-check container">
+            <h4>Did you like the page?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Yes
+            </label>
+          </div>
+          <div class="form-check container">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              No
+            </label>
+          </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    
+
+</body>
+
+</html>
